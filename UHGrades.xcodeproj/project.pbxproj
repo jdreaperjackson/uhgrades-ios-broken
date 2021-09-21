@@ -13,9 +13,19 @@
 		4D02DABD26F820D6009AB3E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02DAA826F820D6009AB3E8 /* ContentView.swift */; };
 		4D02DABE26F820D6009AB3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D02DAA926F820D6009AB3E8 /* Assets.xcassets */; };
 		4D02DABF26F820D6009AB3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D02DAA926F820D6009AB3E8 /* Assets.xcassets */; };
+		4D02DAC926F8214A009AB3E8 /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02DAC826F8214A009AB3E8 /* GradeListViewModel.swift */; };
+		4D02DACA26F8214A009AB3E8 /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02DAC826F8214A009AB3E8 /* GradeListViewModel.swift */; };
+		4D02DACC26F82166009AB3E8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02DACB26F82166009AB3E8 /* DataModel.swift */; };
+		4D02DACD26F82166009AB3E8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D02DACB26F82166009AB3E8 /* DataModel.swift */; };
+		7C0ADCC414139350E15055F2 /* Pods_UHGrades__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5764A1A9FBED053F512811BB /* Pods_UHGrades__macOS_.framework */; };
+		CF98C7DB5509091207987204 /* Pods_UHGrades__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65167DD25DB802792242CD3 /* Pods_UHGrades__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		027EEF2C01765152140F1F85 /* Pods-UHGrades (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UHGrades (iOS).release.xcconfig"; path = "Target Support Files/Pods-UHGrades (iOS)/Pods-UHGrades (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		2AE1C482B4D9008C0F473656 /* Pods-UHGrades (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UHGrades (macOS).release.xcconfig"; path = "Target Support Files/Pods-UHGrades (macOS)/Pods-UHGrades (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		349A248A40CF39235F200709 /* Pods-UHGrades (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UHGrades (iOS).debug.xcconfig"; path = "Target Support Files/Pods-UHGrades (iOS)/Pods-UHGrades (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		48B0FDFA3CBB240B9B3CBD63 /* Pods-UHGrades (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UHGrades (macOS).debug.xcconfig"; path = "Target Support Files/Pods-UHGrades (macOS)/Pods-UHGrades (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		4D02DAA726F820D6009AB3E8 /* UHGradesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHGradesApp.swift; sourceTree = "<group>"; };
 		4D02DAA826F820D6009AB3E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D02DAA926F820D6009AB3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		4D02DAB626F820D6009AB3E8 /* UHGrades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UHGrades.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D02DAB826F820D6009AB3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D02DAB926F820D6009AB3E8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4D02DAC826F8214A009AB3E8 /* GradeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListViewModel.swift; sourceTree = "<group>"; };
+		4D02DACB26F82166009AB3E8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		5764A1A9FBED053F512811BB /* Pods_UHGrades__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UHGrades__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65167DD25DB802792242CD3 /* Pods_UHGrades__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UHGrades__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF98C7DB5509091207987204 /* Pods_UHGrades__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0ADCC414139350E15055F2 /* Pods_UHGrades__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +67,8 @@
 				4D02DAB026F820D6009AB3E8 /* iOS */,
 				4D02DAB726F820D6009AB3E8 /* macOS */,
 				4D02DAAF26F820D6009AB3E8 /* Products */,
+				6F846DB28ADEEEC3A58EA65B /* Pods */,
+				BE49886091A88492CC251170 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				4D02DAA726F820D6009AB3E8 /* UHGradesApp.swift */,
+				4D02DAC826F8214A009AB3E8 /* GradeListViewModel.swift */,
 				4D02DAA826F820D6009AB3E8 /* ContentView.swift */,
 				4D02DAA926F820D6009AB3E8 /* Assets.xcassets */,
+				4D02DACB26F82166009AB3E8 /* DataModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -90,6 +110,26 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		6F846DB28ADEEEC3A58EA65B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				349A248A40CF39235F200709 /* Pods-UHGrades (iOS).debug.xcconfig */,
+				027EEF2C01765152140F1F85 /* Pods-UHGrades (iOS).release.xcconfig */,
+				48B0FDFA3CBB240B9B3CBD63 /* Pods-UHGrades (macOS).debug.xcconfig */,
+				2AE1C482B4D9008C0F473656 /* Pods-UHGrades (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE49886091A88492CC251170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65167DD25DB802792242CD3 /* Pods_UHGrades__iOS_.framework */,
+				5764A1A9FBED053F512811BB /* Pods_UHGrades__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D02DAC226F820D6009AB3E8 /* Build configuration list for PBXNativeTarget "UHGrades (iOS)" */;
 			buildPhases = (
+				613E7EE622951CF5481672CD /* [CP] Check Pods Manifest.lock */,
 				4D02DAAA26F820D6009AB3E8 /* Sources */,
 				4D02DAAB26F820D6009AB3E8 /* Frameworks */,
 				4D02DAAC26F820D6009AB3E8 /* Resources */,
@@ -114,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D02DAC526F820D6009AB3E8 /* Build configuration list for PBXNativeTarget "UHGrades (macOS)" */;
 			buildPhases = (
+				79E8DC6D128867EAB966787E /* [CP] Check Pods Manifest.lock */,
 				4D02DAB226F820D6009AB3E8 /* Sources */,
 				4D02DAB326F820D6009AB3E8 /* Frameworks */,
 				4D02DAB426F820D6009AB3E8 /* Resources */,
@@ -182,13 +224,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		613E7EE622951CF5481672CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UHGrades (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E8DC6D128867EAB966787E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UHGrades (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D02DAAA26F820D6009AB3E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D02DABC26F820D6009AB3E8 /* ContentView.swift in Sources */,
+				4D02DACC26F82166009AB3E8 /* DataModel.swift in Sources */,
 				4D02DABA26F820D6009AB3E8 /* UHGradesApp.swift in Sources */,
+				4D02DAC926F8214A009AB3E8 /* GradeListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D02DABD26F820D6009AB3E8 /* ContentView.swift in Sources */,
+				4D02DACD26F82166009AB3E8 /* DataModel.swift in Sources */,
 				4D02DABB26F820D6009AB3E8 /* UHGradesApp.swift in Sources */,
+				4D02DACA26F8214A009AB3E8 /* GradeListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +410,7 @@
 		};
 		4D02DAC326F820D6009AB3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349A248A40CF39235F200709 /* Pods-UHGrades (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +433,7 @@
 		};
 		4D02DAC426F820D6009AB3E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027EEF2C01765152140F1F85 /* Pods-UHGrades (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +457,7 @@
 		};
 		4D02DAC626F820D6009AB3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B0FDFA3CBB240B9B3CBD63 /* Pods-UHGrades (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,6 +482,7 @@
 		};
 		4D02DAC726F820D6009AB3E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE1C482B4D9008C0F473656 /* Pods-UHGrades (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

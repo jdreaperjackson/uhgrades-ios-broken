@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct UHGradesApp: App {
+struct Music_SearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          ContentView(viewModel: GradeListViewModel())
         }
     }
 }

@@ -1,0 +1,6 @@
+framework module Pods_UHGrades__iOS_ {
+  umbrella header "Pods-UHGrades (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
